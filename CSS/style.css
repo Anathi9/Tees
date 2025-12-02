@@ -188,7 +188,7 @@ footer {
 .about-container img {
     flex: 1;
     border-radius: 10px;
-    max-width: 400px;
+    max-width: 360px;
 }
 
 .about-text {
