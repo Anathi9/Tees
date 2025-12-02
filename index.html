@@ -1,57 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Moses Clothing Brand — Home</title>
-<link rel="stylesheet" href="CSS/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moses Joya - Home</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script defer src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<header class="site-header">
-<nav class="nav container">
-<a class="logo" href="index.html">
-<img src="https://i.ibb.co/gMDM24ZP/Whats-App-Image-2025-12-02-at-15-58-13.jpg" alt="Moses Clothing Logo" />
-</a>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo"><img src="https://i.ibb.co/gMDM24ZP/Whats-App-Image-2025-12-02-at-15-58-13.jpg" alt="Moses Joya Logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Moses Joya Clothing</h1>
+                <p>Established in 2023, Moses Joya Clothing blends style and uniqueness for the fashion-forward. Also a resident DJ at RANDS, Cape Town, bringing beats to life with a long-standing deejaying experience across various locations.</p>
+                <a href="products.html" class="btn-shop">Shop Now</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://i.ibb.co/v662DD7h/Whats-App-Image-2025-12-02-at-17-21-50.jpg" alt="Moses Joya Clothing">
+            </div>
+        </div>
+    </section>
 
-<button class="nav-toggle" aria-label="toggle navigation">☰</button>
-
-
-<ul class="nav-links">
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="products.html">What We Offer</a></li>
-<li><a href="contact.html">Contact</a></li>
-</ul>
-
-
-<div class="header-actions">
-<a href="products.html" class="cart" aria-label="View cart">Cart <span id="cartCount">0</span></a>
-</div>
-</nav>
-</header>
-
-
-<main>
-<section class="hero container">
-<div class="hero-text">
-<h1><span class="accent-line">Moses</span> Clothing Brand</h1>
-<p class="lead">Bold, local, and made for everyday confidence. Shop curated hats, caps and tees with quality you can feel.</p>
-<div class="hero-actions">
-<a class="btn btn-primary" href="products.html" id="shopBtn">Shop Now</a>
-<a class="btn btn-ghost" href="#features">Learn more</a>
-</div>
-</div>
-<div class="hero-image">
-<img src="https://i.ibb.co/27qpz2BR/Whats-App-Image-2025-12-02-at-15-58-17.jpg" alt="Featured product" />
-</div>
-</section>
-
-
-<section id="features" class="features container">
-<article class="feature-card">
-<h3>Premium fabrics</h3>
-<p>Carefully selected materials that last wash after wash.</p>
-</article>
-<article class="feature-card">
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="current-year"></span> Moses Joya. All rights reserved.</p>
+    </footer>
+</body>
 </html>
